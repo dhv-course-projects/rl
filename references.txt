@@ -1,0 +1,6 @@
+Came across this that helped while debugging a runtime issue with pulp.
+(I didn't realise model.variables() doesn't return variables in the order they were made)
+https://github.com/ph-preux/solving-an-MDP-with-PuLP/blob/master/taxicab-pulp.py
+
+Referred to the following to implement the dual of the LP problem (this was before dual_lp was removed from autograder)
+https://arxiv.org/pdf/1302.4971.pdf
